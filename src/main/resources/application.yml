@@ -1,0 +1,7 @@
+server.port: 3000
+
+# Removes the default log that the ResponseEntityExceptionHandler throws
+spring.mvc.logResolvedException: false
+
+transaction-statistics:
+  window-length: 60000 # How far in the past (in milliseconds) from current time we will accept & generate statistics for transactions
